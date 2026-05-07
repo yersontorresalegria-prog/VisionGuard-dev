@@ -1,4 +1,4 @@
-
+{
   "cli": {
     "version": ">= 16.0.0"
   },
@@ -31,14 +31,4 @@
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "./google-services.json",
-        "track": "production"
-      },
-      "ios": {
-        "appleId": "your@email.com",
-        "ascAppId": "YOUR_APP_STORE_CONNECT_APP_ID",
-        "appleTeamId": "YOUR_APPLE_TEAM_ID"
-      }
-    }
-  }
-}
+        "serviceAccountKeyPath": "./google-serv
