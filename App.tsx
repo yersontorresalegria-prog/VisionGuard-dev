@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -32,4 +32,4 @@ export default function App() {
   return (<SafeAreaProvider><StatusBar style="light" /><NavigationContainer>{isAuthenticated ? <AuthenticatedNavigator /> : <Stack.Navigator screenOptions={{ headerShown: false }}><Stack.Screen name="Login">{() => <LoginScreen onLogin={() => setIsAuthenticated(true)} />}</Stack.Screen></Stack.Navigator>}</NavigationContainer></SafeAreaProvider>);
 }
 
-const styles = StyleSheet.create({ loading: { flex: 1, backgroundColor:
+const styles = StyleSheet.create({ loading: { flex: 1, backgroundColor: COLORS.background, justifyContent: 'center', alignItems: 'center' } });
