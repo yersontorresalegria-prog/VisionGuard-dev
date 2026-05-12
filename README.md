@@ -1,3 +1,2 @@
 # VisionGuard-dev
-Aplicación de asistencia visual VisionGuard con navegación IA y sistema SOS."
-eas.json
+Aplicación de asistencia visual VisionGuard con navegación IA y sistema SOS.
